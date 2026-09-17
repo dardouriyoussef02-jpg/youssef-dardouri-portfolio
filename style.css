@@ -148,12 +148,13 @@ h2 span{
 }
 
 .hero h2{
-  font-size:clamp(1.5rem,3vw,2.6rem);
-  letter-spacing:-.025em;
+  font-family:"Space Grotesk",sans-serif;
+  font-size:clamp(1.8rem,3.5vw,3.2rem);
+  letter-spacing:-.04em;
   color:var(--accent2);
-  font-weight:700;
+  font-weight:800;
   margin-top:18px;
-  line-height:1.25
+  line-height:1.15;
 }
 
 .hero-text{
