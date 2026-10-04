@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960" role="img" aria-label="Conversational travel assistant illustration">
+  <defs>
+    <linearGradient id="bgChat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151b31"/>
+      <stop offset="1" stop-color="#0a0c14"/>
+    </linearGradient>
+    <linearGradient id="accChat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#19d3ff"/>
+    </linearGradient>
+    <pattern id="gridChat" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#bgChat)"/>
+  <rect width="540" height="960" fill="url(#gridChat)"/>
+  <circle cx="110" cy="140" r="180" fill="#19d3ff" opacity="0.10"/>
+  <circle cx="470" cy="840" r="180" fill="#8b7cff" opacity="0.14"/>
+
+  <g>
+    <rect x="60" y="230" width="330" height="170" rx="28" fill="#171b2b" stroke="#3a4059" stroke-width="2"/>
+    <rect x="92" y="272" width="230" height="11" rx="5.5" fill="#3d4460"/>
+    <rect x="92" y="300" width="266" height="11" rx="5.5" fill="#3d4460"/>
+    <rect x="92" y="328" width="170" height="11" rx="5.5" fill="#3d4460"/>
+    <g fill="#8b7cff" opacity="0.9">
+      <circle cx="98" cy="368" r="6"/>
+      <circle cx="120" cy="368" r="6" opacity="0.6"/>
+      <circle cx="142" cy="368" r="6" opacity="0.35"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="150" y="440" width="330" height="150" rx="28" fill="url(#accChat)" opacity="0.92"/>
+    <rect x="182" y="482" width="240" height="11" rx="5.5" fill="#ffffff" opacity="0.85"/>
+    <rect x="182" y="510" width="200" height="11" rx="5.5" fill="#ffffff" opacity="0.7"/>
+    <rect x="182" y="538" width="140" height="11" rx="5.5" fill="#ffffff" opacity="0.55"/>
+  </g>
+
+  <g transform="translate(360,660)">
+    <path d="M0 60 C 40 10, 100 0, 150 20" fill="none" stroke="#8b7cff" stroke-width="2.5" stroke-dasharray="9 10" stroke-opacity="0.75"/>
+    <path d="M150 -8 l58 26 -58 26 12 -26 z" fill="#b2a8ff"/>
+    <path d="M150 -8 l58 26 -30 4 z" fill="#8b7cff"/>
+  </g>
+
+  <g transform="translate(60,760)">
+    <rect x="0" y="0" width="250" height="86" rx="22" fill="#171b2b" stroke="#3a4059" stroke-width="2"/>
+    <rect x="26" y="30" width="150" height="10" rx="5" fill="#3d4460"/>
+    <rect x="26" y="52" width="96" height="10" rx="5" fill="#3d4460"/>
+    <path d="M20 86 l0 26 26 -26" fill="#171b2b" stroke="#3a4059" stroke-width="2"/>
+  </g>
+</svg>
