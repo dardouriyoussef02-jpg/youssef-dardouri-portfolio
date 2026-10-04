@@ -506,6 +506,10 @@ h2 span{
   overflow:hidden
 }
 
+.project.featured+.project.featured{
+  margin-top:14px
+}
+
 .project-visual{
   min-height:480px;
   display:flex;
@@ -587,6 +591,93 @@ h2 span{
   background:#1c2030;
   border:1px solid #303445;
   border-radius:8px
+}
+
+/* Delivery App phone mock */
+.mock-phone{
+  width:250px;
+  height:470px;
+  border:8px solid #2c303c;
+  border-radius:34px;
+  background:#0c0f16;
+  box-shadow:0 25px 70px #0009;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column
+}
+
+.mock-body{
+  padding:16px;
+  display:flex;
+  flex-direction:column;
+  gap:11px;
+  flex:1
+}
+
+.mock-map{
+  height:120px;
+  border-radius:12px;
+  background:linear-gradient(135deg,#1b2138,#131726);
+  border:1px solid #303445;
+  position:relative
+}
+
+.mock-map::after{
+  content:"";
+  position:absolute;
+  left:16%;
+  top:58%;
+  width:66%;
+  height:2px;
+  background:#71e6a599;
+  border-radius:2px;
+  transform:rotate(-13deg)
+}
+
+.mock-map::before{
+  content:"";
+  position:absolute;
+  left:14%;
+  top:52%;
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:var(--accent);
+  box-shadow:130px -28px 0 #71e6a5
+}
+
+.mock-stop{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  padding:11px 12px;
+  background:#1c2030;
+  border:1px solid #303445;
+  border-radius:11px
+}
+
+.mock-stop i{
+  width:30px;
+  height:30px;
+  border-radius:8px;
+  background:#2b3047;
+  flex:none
+}
+
+.mock-stop div{flex:1}
+
+.mock-stop span{
+  display:block;
+  height:7px;
+  border-radius:4px;
+  background:#2f3446
+}
+
+.mock-stop span:first-child{margin-bottom:6px}
+
+.mock-stop span:last-child{
+  width:55%;
+  background:#252a3c
 }
 
 .floating-chip{

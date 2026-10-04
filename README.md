@@ -10,7 +10,8 @@ A responsive personal portfolio built with plain HTML, CSS and JavaScript.
 ## Before publishing
 1. Replace the `YOUR_EMAIL@example.com` placeholder in `index.html`.
 2. Replace the LinkedIn and GitHub placeholder URLs with your real profiles.
-3. Replace the GitHub button in the Travel4U project with the repository URL.
+3. The Travel4U button points to your GitHub profile — swap in its repo URL once public.
+   The Delivery App card already links to `https://github.com/dardouriyoussef02-jpg/Delivery-APP`.
 4. Add your CV as `assets/CV.pdf` if desired and change the button/link accordingly.
 
 ## GitHub Pages
